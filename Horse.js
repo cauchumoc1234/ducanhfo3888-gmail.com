@@ -8,4 +8,7 @@ Horse.prototype.run = function(){
 Horse.prototype.eat = function(){
     console.log("Eating")
 }
+Horse.prototype.slap = function(){
+    console.log("Slapping");
+}
 module.exports = Horse;
