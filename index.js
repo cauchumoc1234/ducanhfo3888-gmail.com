@@ -1,6 +1,3 @@
-var readline = require('readline-sync');
-var x = readline.question('What is your name? ');
-console.log('Hello' ,x);
-function hi(){
-    console.log('the function');
-}
+var Dog = require('./Dog');
+var doo = new Dog('Doo');
+doo.sayHi();
